@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "symbol.dtd">
+<symbols>
+	<symbol id="Blocks" image="SymbolB.tiff" indentation="0">
+		<regex>{%\s+block\s+(\w+).*?\s+%}</regex>
+	</symbol>
+	<symbol id="Macros" image="SymbolM" indentation="0">
+		<regex>{%\s+macro\s+(\w+).*?\s+%}</regex>
+	</symbol>
+</symbols>
