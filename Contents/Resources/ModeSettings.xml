@@ -2,5 +2,6 @@
 <settings>
 	<recognition>
 		<extension>twig</extension>
+		<extension>html.twig</extension>
 	</recognition>
 </settings>
