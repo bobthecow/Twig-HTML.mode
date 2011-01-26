@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syntax>
 	<head>
-		<name>Twig</name>
+		<name>Twig-HTML</name>
 		<autocompleteoptions use-spelling-dictionary="yes"/>
 		<charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens>
 	</head>
@@ -304,6 +304,12 @@
 				<state id="Strings in Tags" type="string" color="#1A1AA6" useforautocomplete="no">
 					<begin><regex>"</regex></begin>
 					<end><regex>"</regex></end>
+					<state-link state="Twig"/>
+				</state>
+
+				<state id="Single Strings in Tags" type="string" color="#1A1AA6" useforautocomplete="no">
+					<begin><regex>'</regex></begin>
+					<end><regex>'</regex></end>
 					<state-link state="Twig"/>
 				</state>
 

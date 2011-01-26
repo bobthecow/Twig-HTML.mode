@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>SEEMode.Twig</string>
+	<string>SEEMode.Twig-HTML</string>
 	<key>CFBundleName</key>
-	<string>Twig</string>
+	<string>Twig-HTML</string>
     <key>CFBundleShortVersionString</key>
 	<string>0.1</string>
 	<key>CFBundleVersion</key>
