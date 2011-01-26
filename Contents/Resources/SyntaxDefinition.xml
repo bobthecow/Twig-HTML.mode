@@ -307,6 +307,12 @@
 					<state-link state="Twig"/>
 				</state>
 
+				<state id="Single Strings in Tags" type="string" color="#1A1AA6" useforautocomplete="no">
+					<begin><regex>'</regex></begin>
+					<end><regex>'</regex></end>
+					<state-link state="Twig"/>
+				</state>
+
 				<keywords id="Attributes in Tags" color="#994500" useforautocomplete="no">
 					<regex>([\w-]*)(?=[ \t]*=)</regex>
 				</keywords>
